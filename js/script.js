@@ -1,0 +1,1 @@
+const megfordit = (text, result) =>result.innerHTML = text.split('').reverse().join('');

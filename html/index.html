@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display:grid ;place-content: center;width: 100vw;justify-content: center;height: 100vh;grid-gap: 10px;">
+        <input type="text" id="bemenet" placeholder="Szöveg" style="margin: 10; font-size: 20; height: 50px;">
+        <button id="btn" onclick="megfordit(document.getElementById('bemenet').value, document.getElementById('result'));" style=" font-size: 20; height: 50px;">Megfordítás</button>
+        <div id="result" style="font-weight: bold;font-size: 30;"></div>
+    </div>
+</body>
+<script src="../js/script.js"></script>
+</html>
